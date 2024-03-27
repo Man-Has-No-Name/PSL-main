@@ -9,7 +9,7 @@ body {
     background: linear-gradient(317deg, rgba(25, 93, 16, 1) 49%, rgba(0, 156, 0, 1) 49%);
     gap: 10px;
     padding: 0%;
-    padding-right: 175px;
+    padding-right: 280px;
     height: 50px;
 
     ul {
@@ -41,7 +41,7 @@ body {
 .second {
     // background-color: #0a3406;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0px;
     gap: 7px;
     align-items: center;
@@ -58,7 +58,7 @@ body {
 
         li {
             display: inline;
-            margin-left: 8px;
+            margin-left: 25px;
             gap: 8px;
 
             a {
@@ -73,6 +73,7 @@ body {
 .second a:hover {
     background-color: white;
     color: black;
+    transition: 1s;
 }
 
 .dd {
